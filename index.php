@@ -24,6 +24,7 @@
         }
         .serial-number{
             background-color:#6dce8c;
+            color:#fff;
             padding:10px;
             font-size:30px;
             width: 40px;
@@ -62,7 +63,7 @@
     ?>
     <section>
         <h2>People Data
-        <button class="" onclick="myFunction()">Next Person</button></h2>
+        <button class="" onclick="myFunction()">NEXT PERSON</button></h2>
     </section>
     <section class="content" id="content">
 
@@ -87,7 +88,7 @@
     </section>
 
     <section style="text-align:center;">
-        <h4>Currently <span id="count">1</span> People Showing </h4>
+        <h4 style="color:#fff;">CURRENTLY <span id="count">1</span> PEOPLE SHOWING </h4>
     </section>
             <script>
                 var JsonObj = <?php echo ($Data); ?>;  
