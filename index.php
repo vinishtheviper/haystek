@@ -45,7 +45,7 @@
             font-size:16px;
         }
         button{
-            border-radius:10px;
+            border-radius:50px;
             background-color:#f49c63;
             color:#fff;
             border-color:#f49c63;
@@ -62,7 +62,7 @@
         $json = json_decode($Data, true);
     ?>
     <section>
-        <h2>People Data
+        <h2  style="color:#fff;">PEOPLE DATA
         <button class="" onclick="myFunction()">NEXT PERSON</button></h2>
     </section>
     <section class="content" id="content">
